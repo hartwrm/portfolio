@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+html{
+  font-family: sans-serif;
+}
+body{
+  width: 60%;
+  margin: auto;
+  background-image: url(./images/BG.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{
+  font-size: 40px;
+  font-weight: 400;
+  color: #17191A;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: 400;
+  color: #17191A;
+}
+
+h5{
+  font-size: 40px;
+  margin: 10px;
+  color: #17191A;
+}
+
+p{
+  color: #8F9EA5;
+  opacity: 0.8;
+  font-weight: 100;
+  font-size: 20PX;
+}
+
+#gitlogo{
+  height: 48px;
+  width: 48px;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+#face{
+  border-radius: 250px;
+}
+.landing{
+  height: 100vh;
+  position: relative;
+}
+.landingWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.landingL{
+  margin-top: 4em;
+}
+.scroll{
+  position: absolute;
+  bottom: 180px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.skills{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.skillLogo{
+  height: 75px;
+  widht: 75px;
+  margin: 10px;
+}
+#subtitle{
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.appImg{
+  height: 300px;
+  width: 500px;
+  border-radius: 25px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
